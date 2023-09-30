@@ -1,0 +1,138 @@
+:root {
+    --color-primary: #000;
+    --color-secondary: #fff;
+
+    --boton: rgb(58, 194, 187);
+    --background-color: #121212;
+
+    --outline-input: #1d1d1da1;
+
+    --texto: #ffffff;
+    --texto1:rgb(224, 224, 224);
+    --placeholder:rgba(224, 224, 224, 0.301);
+
+    --Elementosdeenfasis: #ff0000;
+
+    --elementosdefondoydeapoyo: #333333;
+
+    --fondo-negro: #000000;
+--gris-oscuro: #333333;
+--gris-medio: #555555;
+--blanco: #FFFFFF;
+--azul-oscuro: #007bff;
+--azul-marino: #000080;
+--verde: #00ff00;
+--verde-oscuro: #008000;
+--amarillo: #ffff00;
+--amarillo-oscuro: #808000;
+--rojo: #ff0000;
+--rojo-oscuro: #800000;
+--naranja: #ffA500;
+--naranja-oscuro: #ff8c00;
+--morado: #800080;
+--morado-oscuro: #6a0dad;
+--marron-oscuro: #2b2b2b;
+--marron-medio: #4a4a4a;
+
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+input:focus{
+  outline: none;
+}
