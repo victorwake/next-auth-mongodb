@@ -1,86 +1,135 @@
 
 
-.container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+.containerBody{
+    position: relative;
     width: 100%;
-    background-color: lightseagreen;
-
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
 }
 
-.labe_input_group button{
-    justify-content: center;
+.formContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.formContainer form{
+    display: flex;
     align-items: center;
-    width: 208px;
-    padding: 5px;
-    border-radius: 4px;
-    margin-top: 10px;
-    background-color: var(--placeholder);
+    justify-content: center;
+    flex-direction: column;
 }
 
-.labe_input_group button:hover{
-    background-color: var(--boton);
+.title{
+    font-size:2.1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.inputField{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .4rem;
+}
+
+.inputField i{
+    text-align: center;
+    line-height: 55px;
+    fill: #acacac;
+    font-size: 1.1rem;
+}
+
+.inputField input{
+    background: none;
+    background-color: transparent !important;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.inputField input:-webkit-autofill {
+    background-color: transparent!important;
+    box-shadow: 0 0 0px 1000px #f0f0f0 inset;
+    border-radius: 55px;
+}
+
+.inputField input::placeholder{
+    color: #aaa;
+    font-weight: 500;
+}
+
+.btn{
+    width: 150px;
+    height: 49px;
+    border: none;
+    outline: none;
+    border-radius: 49px;
+    background-color: var(--background-color-btn);
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: var(--background-color-btn-hover);
     cursor: pointer;
-    color: var(--texto1);
-
 }
 
-.form{
-    border: 1px solid var(--gris-oscuro);
-    height: 300px;
-    width: 350px;
+.socialText{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.socialMediaContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
-    margin-top: 150px;
-    box-shadow: 5px 5px 15px gray;
-
 }
 
-.container_inputs{
-    margin-top: 50px;
+.googleButton {
+    .buttonGoogle {
+        width: 248px;
+        height: 52px;
+        background-color: var(--background-color-btn);
+        border: none;
+        border-radius: 5px;
+        color: var(--color-secondary);
+        padding: 15px 20px 25px 70px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 400;
+        cursor: pointer;
+        line-height: 22px;
+        position: relative;
+        outline-style: none;
+        transition: background 300ms ease-in-out;
+
+        .iconoGoogles {
+            content: "";
+            border-radius: 5px;
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            display: inline-block;
+        }
+    }
 }
 
-/* .labe_input_group{
-    display: inline-block;
-} */
-
-.labe_input_group label,
-.labe_input_group input {
-    display: block;
-    margin: 2px;
-}
-
-.labe_input_group label{
-    margin: 15px 0 5px 3px;
-    font-size: 0.8rem;
-    color: var(--texto1);
-}
-
-.labe_input_group input{
-    border-radius: 3px;
-    padding:5px 2px 5px 3px;
-    border: none;
-    width: 200px;
-    background-color: var(--gris-oscuro) !important;
-}
-
-.inputs{
-    color: var(--texto);
-}
-
-.inputs:hover{
-    outline: 1px solid var(--outline-input);
-    box-shadow: 5px 5px 15px gray;
-}
-
-.inputs:focus{
-    outline: 2px solid var(--gris-oscuro);
-}
-
-.inputs::placeholder{
-    color: var(--placeholder);
-    font-size: 0.7rem;
+.buttonGoogle:hover{
+    background-color: var(--background-color-btn-hover);
 }

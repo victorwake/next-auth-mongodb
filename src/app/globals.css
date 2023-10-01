@@ -5,6 +5,9 @@
     --boton: rgb(58, 194, 187);
     --background-color: #121212;
 
+    --background-color-btn: #5995fd;
+    --background-color-btn-hover: #4d84e2;
+
     --outline-input: #1d1d1da1;
 
     --texto: #ffffff;
@@ -56,9 +59,14 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
-
-body {
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body, input {
   line-height:1;
+  font-family: 'Poppins', sans-serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -136,3 +144,4 @@ input, select {
 input:focus{
   outline: none;
 }
+
