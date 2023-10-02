@@ -8,12 +8,15 @@
     overflow: hidden;
 }
 
+/* --Inicio Sign in- */
+
 .formContainer{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    margin-top: 15px;
 }
 
 .formContainer form{
@@ -21,6 +24,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.formContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .title{
@@ -111,10 +122,10 @@
         padding: 15px 20px 25px 70px;
         text-align: center;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 400;
         cursor: pointer;
-        line-height: 22px;
+        /* line-height: 22px; */
         position: relative;
         outline-style: none;
         transition: background 300ms ease-in-out;
@@ -133,3 +144,66 @@
 .buttonGoogle:hover{
     background-color: var(--background-color-btn-hover);
 }
+
+/* --Fin Sign in-- */
+
+
+
+/* --Inicio Sign up-- */
+
+
+.formContainer2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 450px;
+    left: 0;
+}
+
+.formContainer2 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socialMediaContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleButton2 {
+    .buttonGoogle2 {
+        width: 248px;
+        height: 52px;
+        background-color: var(--background-color-btn);
+        border: none;
+        border-radius: 5px;
+        color: var(--color-secondary);
+        padding: 15px 20px 25px 70px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+        /* line-height: 22px; */
+        position: relative;
+        outline-style: none;
+        transition: background 300ms ease-in-out;
+
+        .iconoGoogles2 {
+            content: "";
+            border-radius: 5px;
+            position: absolute;
+            left: 2px;
+            top: 2px;
+            display: inline-block;
+        }
+    }
+}
+
+.buttonGoogle2:hover{
+    background-color: var(--background-color-btn-hover);
+}
+/* --Fin Sign up-- */

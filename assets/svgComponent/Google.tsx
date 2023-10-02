@@ -1,11 +1,14 @@
 
 const GoogleIcon = () => {
     return (
-        <svg>
+        <svg
+        width={46}
+        height={46}
+        >
         <title>{"btn_google"}</title>
         <defs>
           <rect id="b" width={40} height={40} x={0} y={0} rx={3} />
-          <rect id="c" width={45} height={46} x={2} y={2} rx={3} />
+          <rect id="c" width={46} height={46} x={1} y={2} rx={3} />
           <filter
             id="a"
             width="200%"
